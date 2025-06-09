@@ -8,8 +8,8 @@ class Config:
     BOT_TOKEN = os.getenv("7421749280:AAE4DWOVNP7VTck6ZZyFNmyrH_6fOssmg1s")
     
     # Telegram API ID and Hash (Optional for bot-only use)
-    API_ID = os.getenv("API_ID")
-    API_HASH = os.getenv("API_HASH")
+    API_ID = os.getenv("25492855")
+    API_HASH = os.getenv("61876db014de51a4ace6b169608be4f1")
     
     # MongoDB Configuration
     MONGO_URI = os.getenv("mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
@@ -17,7 +17,7 @@ class Config:
     
     # Web Server Configuration
     WEB_HOST = os.getenv("WEB_HOST", "0.0.0.0")
-    WEB_PORT = int(os.getenv("WEB_PORT", 5000))
+    WEB_PORT = int(os.getenv("WEB_PORT", 8080))
     
     # Base URL for web interface
     BASE_URL = os.getenv("BASE_URL", "")
