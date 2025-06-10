@@ -5,4 +5,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD bash -c "python bot.py & cd web && gunicorn -b 0.0.0.0:$PORT app:app"
+CMD ["python", "bot.py"]
