@@ -5,5 +5,5 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD gunicorn app:app & python3 bot.py
+CMD gunicorn web.app:app & python3 bot.py
 
