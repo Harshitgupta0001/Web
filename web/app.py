@@ -34,7 +34,8 @@ def index():
         files=files,
         channel_title=channel_title,
         selected_channel=selected_channel,
-        base_url=Config.BASE_URL
+        base_url="https://involved-valenka-dhndhajsjs-39484c8d.koyeb.app", 
+        config=Config
     )
 
 if __name__ == "__main__":
