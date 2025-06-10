@@ -22,8 +22,8 @@ channels_collection = db["channels"]
 
 app = Client(
     "file_index_bot",
-    api_id=Config.API_ID,          # Optional
-    api_hash=Config.API_HASH,      # Optional
+    api_id=25492855,          # Optional
+    api_hash=61876db014de51a4ace6b169608be4f1,      # Optional
     bot_token=Config.BOT_TOKEN,
     workers=100
 )
