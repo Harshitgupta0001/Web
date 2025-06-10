@@ -56,7 +56,7 @@ async def index_files(client: Client, message: Message):
     await message.reply_text(f"🚀 Starting to index files in {channel_title}...")
     
     total_files = 0
-    async for msg in client.iter_history(channel_id):
+    async for msg in client.get_chat_history(channel_id):
         if msg.document or msg.video or msg.audio:
             file_id = msg.document.file_id if msg.document else msg.video.file_id if msg.video else msg.audio.file_id
             file_name = msg.document.file_name if msg.document else msg.video.file_name if msg.video else msg.audio.file_name
